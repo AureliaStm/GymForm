@@ -3,6 +3,8 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return <Grid templateAreas={{
+    sm: `"nav" "form" "footer"`,
+    md: `"nav" "form" "footer"`,
     lg: `"nav" "form" "footer"`
   }}>
     <GridItem area="nav"><NavBar /></GridItem>
